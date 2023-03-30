@@ -1,0 +1,15 @@
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\bin\Debug\net6.0\Nuevo.exe
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\bin\Debug\net6.0\Nuevo.deps.json
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\bin\Debug\net6.0\Nuevo.runtimeconfig.json
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\bin\Debug\net6.0\Nuevo.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\bin\Debug\net6.0\Nuevo.pdb
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\obj\Debug\net6.0\Nuevo.csproj.AssemblyReference.cache
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\obj\Debug\net6.0\Nuevo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\obj\Debug\net6.0\Nuevo.AssemblyInfoInputs.cache
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\obj\Debug\net6.0\Nuevo.AssemblyInfo.cs
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\obj\Debug\net6.0\Nuevo.csproj.CoreCompileInputs.cache
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\obj\Debug\net6.0\Nuevo.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\obj\Debug\net6.0\refint\Nuevo.dll
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\obj\Debug\net6.0\Nuevo.pdb
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\obj\Debug\net6.0\Nuevo.genruntimeconfig.cache
+E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Clases\1_29032023\Clase01\Nuevo\obj\Debug\net6.0\ref\Nuevo.dll
