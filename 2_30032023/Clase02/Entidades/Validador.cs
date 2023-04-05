@@ -1,7 +1,9 @@
 ﻿namespace Entidades
 {
-    public class Validador
+    public static class Validador
     {
+
+        public static int VALOR = 10;
         /// <summary>
         /// funcion que valida un numero entre un rango especifico
         /// </summary>

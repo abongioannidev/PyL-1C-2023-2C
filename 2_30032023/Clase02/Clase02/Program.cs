@@ -26,7 +26,6 @@ namespace Clase02
         static void Main(string[] args)
         {
 
-       
             //string nombreMascota;
             //int edadMascota;
             //string tipoMascota;
