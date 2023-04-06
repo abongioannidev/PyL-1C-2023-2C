@@ -11,12 +11,16 @@ namespace Clase03
             
 
             Persona personaUno = new Persona();
+
+            Persona.ModificarNombre(personaUno);
+
+
             Persona personaDos = new Persona("Franco", "Perrota");
 
      
-            Console.WriteLine(personaUno.edad);
+
             Console.WriteLine(personaUno.nombre);
-            Console.WriteLine(personaDos.edad);
+  
 
 
             //Perro miPerro = new Perro();

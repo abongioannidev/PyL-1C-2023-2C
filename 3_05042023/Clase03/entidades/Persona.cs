@@ -37,5 +37,10 @@
             Persona.familia = familia;
         }
 
+        public static void ModificarNombre(Persona p)
+        {
+            p.nombre = "Nombre modificado desde el metodo";
+        }
+
     }
 }

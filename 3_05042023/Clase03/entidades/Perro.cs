@@ -19,5 +19,8 @@ namespace entidades
             string algo = "algo";
             return $"Soy un perrito y mi nombre es {this.nombre}";
         }
+
+
+
     }
 }
