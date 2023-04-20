@@ -39,5 +39,10 @@
             return String.Compare(p2.getNombre(), p1.getNombre());
 
         }
+
+        public static int FuncionCriterioPersonaEdad(Persona p1, Persona p2)
+        {
+            return p2.getEdad() - p1.getEdad();
+        }
     }
 }
