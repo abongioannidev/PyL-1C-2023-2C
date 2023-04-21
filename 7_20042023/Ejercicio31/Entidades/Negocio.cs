@@ -15,6 +15,7 @@ namespace Entidades
         
         private Negocio() 
         {
+            this.caja = new PuestoAtencion(PuestoAtencion.EPuesto.Caja1);
             this.clientes = new Queue<Cliente>();   
         }   
         public Negocio(string nombre)
