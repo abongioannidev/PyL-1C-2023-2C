@@ -3,9 +3,8 @@
     public class Persona
     {
         private int edad;
-        private string nombre;
+        public string nombre;
         private string apellido;
-
 
 
         public Persona(int edad, string nombre, string apellido)

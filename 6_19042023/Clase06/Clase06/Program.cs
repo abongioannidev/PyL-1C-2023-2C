@@ -204,11 +204,7 @@ namespace Clase06
 
 
         }
-        public static int FuncionCriterioPersonaNombre(Persona p1, Persona p2)
-        {
-            return String.Compare(p2.getNombre(), p1.getNombre());
 
-        }
     }
 
 
