@@ -12,6 +12,7 @@ namespace Clase09
             Figura rt = new Rectangulo(2,3,ConsoleColor.Magenta);
 
             
+            
 
             Console.WriteLine($"El area dela triangulo es {tr.Area}");
             Console.WriteLine($"El area dela rectangulo es {rt.Area}");
