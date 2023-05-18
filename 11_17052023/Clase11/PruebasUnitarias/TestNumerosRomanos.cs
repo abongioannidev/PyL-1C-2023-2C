@@ -64,8 +64,7 @@ namespace PruebasUnitarias
         }
 
         [TestMethod]
-        [ExpectedException(typeof(NumeroInvalidoException))]
-        public void AlRecibirInvalido_DeberiaObternerUnError()
+         public void AlRecibirInvalido_DeberiaObternerUnError()
         {
             //given
             //arrange
@@ -76,7 +75,9 @@ namespace PruebasUnitarias
 
             //assert
             //then
-  
+            Assert.ThrowsException<NumeroInvalidoException>(()=>Conversor.ConvertirANumeroRomaro(-10));
+
+
         }
         [TestMethod]
         [DataRow(10)]
