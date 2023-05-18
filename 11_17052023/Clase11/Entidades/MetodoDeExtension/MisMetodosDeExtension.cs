@@ -22,5 +22,17 @@ namespace Entidades.MetodoDeExtension
         {
             return "Extendiendo la instancia de conversor";
         }
+
+        public static string Concatenar(this string palabra, params string[] palabras)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append(palabra);
+            foreach (var item in palabras)
+            {
+                sb.Append(",");
+                sb.Append(item);
+            }
+            return sb.ToString();
+        }
     }
 }
