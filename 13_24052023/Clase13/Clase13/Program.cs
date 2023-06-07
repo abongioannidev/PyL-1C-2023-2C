@@ -32,7 +32,7 @@ namespace Clase13
 
 
             IGenerica<string> cartero2 = new Cartero();
-
+   
 
             Console.WriteLine(cartero.EnviarMensaje());
             Console.WriteLine(cartero2.EnviarMensaje());
