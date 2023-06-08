@@ -49,6 +49,7 @@
             btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = true;
             btnActualizar.Click += btnActualizar_Click;
+            btnActualizar.Click += Alejandro;
             // 
             // FrmTestDelegados
             // 
