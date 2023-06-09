@@ -11,18 +11,19 @@ namespace FrmView
 
         private void btnIniciar_Click(object sender, EventArgs e)
         {
+            int valor = int.Parse(this.txtIngreso.Text);
             this.cancellationTokenSource = new CancellationTokenSource();
             CancellationToken token = cancellationTokenSource.Token;
-            this.tarea = Task.Run(this.IniciarReloj, token);
+            this.tarea = Task.Run(() => this.IniciarReloj(valor), token);
         }
 
-        public delegate void Callback(int hora, string saludo);
-        private void ActualizarHora(int hora, string saludo)
+        public delegate void Callback(int hora);
+        private void ActualizarHora(int hora)
         {
             if (this.InvokeRequired)
             {
                 Callback callback = new Callback(this.ActualizarHora);
-                object[] args = {  hora, saludo };
+                object[] args = { hora };
                 this.BeginInvoke(callback, args);
                 //Es lo mismo que lo de arriba
                 //this.BeginInvoke(()=>this.ActualizarHora(hora, saludo));
@@ -30,20 +31,19 @@ namespace FrmView
             else
             {
                 this.lblHora.Text = $"{hora}";
-                this.txtIngreso.Text = saludo;
             }
 
         }
 
-        private void IniciarReloj()
+        private void IniciarReloj(int numero)
         {
-            int numero = 60;
+
             do
             {
-                this.ActualizarHora(numero, $"Hola Mundo{numero}");
+                this.ActualizarHora(numero);
                 Thread.Sleep(1000);
                 numero--;
-            } while (numero > 0 && !this.cancellationTokenSource.IsCancellationRequested);
+            } while (numero >= 0 && !this.cancellationTokenSource.IsCancellationRequested);
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)

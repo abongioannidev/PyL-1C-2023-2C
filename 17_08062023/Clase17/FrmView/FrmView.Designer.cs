@@ -48,6 +48,7 @@
             // 
             txtIngreso.Location = new Point(12, 206);
             txtIngreso.Name = "txtIngreso";
+            txtIngreso.PlaceholderText = "Cantidad de segundos";
             txtIngreso.Size = new Size(252, 23);
             txtIngreso.TabIndex = 1;
             // 

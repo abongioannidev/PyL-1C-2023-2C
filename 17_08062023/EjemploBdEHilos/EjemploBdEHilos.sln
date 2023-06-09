@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploBdEHilos", "EjemploBdEHilos\EjemploBdEHilos.csproj", "{53BAF36A-B73F-4080-88F0-A642CB43888E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{30B635F0-6194-4BC5-B412-1E43EFA6608E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53BAF36A-B73F-4080-88F0-A642CB43888E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BAF36A-B73F-4080-88F0-A642CB43888E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BAF36A-B73F-4080-88F0-A642CB43888E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BAF36A-B73F-4080-88F0-A642CB43888E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B635F0-6194-4BC5-B412-1E43EFA6608E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B635F0-6194-4BC5-B412-1E43EFA6608E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B635F0-6194-4BC5-B412-1E43EFA6608E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B635F0-6194-4BC5-B412-1E43EFA6608E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {253366FE-BC1B-4904-B2FA-D444F243C129}
+	EndGlobalSection
+EndGlobal
