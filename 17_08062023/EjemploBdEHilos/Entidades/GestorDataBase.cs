@@ -6,7 +6,7 @@ namespace Entidades
     {
         private static string stringConnection;
         private static CancellationTokenSource cancellationTokenSource;
-  
+
 
         static GestorDataBase()
         {
